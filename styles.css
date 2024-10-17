@@ -1,20 +1,24 @@
 * {
-  margin: 0;
   padding: 0;
   color: #2e073f;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 body {
-  background-color: #ebd3f8;
+  margin: 0 1rem;
+  background-color: rgba(235, 211, 248, 0.8);
 }
 
 nav,
 footer {
+  height: 2rem;
+  padding: 0.5rem 13rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ad49e1;
-  font-size: 1.5em;
+  background-color: rgba(173, 73, 225, 0.8);
+  font-size: 1.5rem;
 }
 
 nav {
@@ -22,4 +26,24 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 40rem;
+  font-size: 2rem;
+  word-spacing: 1.5rem;
+  background-image: url(res/header-background3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header h1 {
+  background-color: rgba(173, 73, 225, 0.8);
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  color: black;
 }
