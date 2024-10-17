@@ -6,13 +6,11 @@
 }
 
 body {
-  margin: 0 1%;
   background-color: rgba(10, 38, 71, 1);
 }
 
 nav,
 footer {
-  height: 5vh;
   padding: 1%;
   display: flex;
   justify-content: space-evenly;
@@ -69,4 +67,20 @@ header h1 {
 .first_section_flex img {
   width: 30%;
   margin: 1.5%;
+}
+
+.quote {
+  background-color: rgba(161, 234, 251, 1);
+  padding: 7% 7% 15%;
+}
+
+.quote h2 {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.quote p {
+  color: black;
+  padding-top: 1%;
+  font-size: 1.2rem;
 }
