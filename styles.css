@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #2e073f;
+}
+
+body {
+  background-color: #ebd3f8;
+}
+
+nav,
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ad49e1;
+  font-size: 1.5em;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
